@@ -1,3 +1,14 @@
+<#
+.SYNOPSIS
+   <A brief description of the script>
+.DESCRIPTION
+   <A detailed description of the script>
+.PARAMETER <paramName>
+   <Description of script parameter>
+.EXAMPLE
+   <An example of using the script>
+#>
+
 $domain = "fqdn" #sets domain
 $remove = Import-Csv "C:\PC.csv" #imports a list of PC's
 $password = "thepassword" | ConvertTo-SecureString -asPlainText -Force #sets password string

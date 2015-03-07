@@ -1,4 +1,4 @@
-$domain = "bcc.ad.mymanatee.org" 
+$domain = "fqdn" 
 $user = "admigrate"
 #Don't edit below this point 
 $password = Read-Host -Prompt "Enter password for $user" -AsSecureString 

@@ -1,3 +1,14 @@
+<#
+.SYNOPSIS
+   <A brief description of the script>
+.DESCRIPTION
+   <A detailed description of the script>
+.PARAMETER <paramName>
+   <Description of script parameter>
+.EXAMPLE
+   <An example of using the script>
+#>
+
 $domain = "fqdn" #sets domain
 $password = "thepassword" | ConvertTo-SecureString -asPlainText -Force #sets password string
 $username = "administrator" #sets username string in this case were using it for local admin

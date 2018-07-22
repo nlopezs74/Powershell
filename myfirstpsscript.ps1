@@ -9,4 +9,4 @@
    <An example of using the script>
 #>
 
-Get-Process | Sort-Object CPU -desc | Select-Object ProcessName, CPU -First 10
+Get-Process | Sort-Object CPU -desc | Select-Object ProcessName, CPU -First 20
